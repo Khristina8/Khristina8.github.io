@@ -1,0 +1,173 @@
+body{
+	background: #FFD1DC;
+	padding: 0;
+	margin: 0;
+	font-family: Adventure, serif;
+}
+header{
+ margin-top: 0px;
+ font-family: Adventure, sans-serif;
+}
+.dws-menu *{
+ margin: 0;
+ padding: 0;
+}
+.dws-menu ul,
+.dws-menu ol{
+ list-style: none;
+}
+.dws-menu > ul{
+ display: flex;
+ justify-content: center;
+}
+.dws-menu > ul li{
+ position: relative;
+ border-right: 1px solid #ad879e;
+}
+.dws-menu > ul li:first-child{
+ border-left: 1px solid #ad879e;
+}
+.dws-menu > ul li:last-child{
+ border-right: 1px solid #ad879e;
+}
+.dws-menu > ul li > a i.fa{
+ position: absolute;
+ top: 15px;
+ left: 12px;
+ font-size: 18px;
+}
+.dws-menu > ul li a{
+ display: block;
+ background:#ffe0f3; 
+ padding: 15px 30px 15px 40px;
+ font-size: 14px;
+ color: #9e638c;
+ text-decoration: none;
+ text-transform:uppercase;
+ transition: all 0.3s ease;
+}
+.dws-menu li a:hover{
+ background: #ffe0f3; 
+ color: #f9a7d8;
+ box-shadow: 1px 5px 10px -5px black;
+ transition: all 0.3s ease;
+}
+
+/*sub menu*/
+.dws-menu li ul{
+ position: absolute;
+ min-width: 150px;
+ display: none;
+}
+.dws-menu li > ul li{
+ border: 1px solid #ffe0f3;
+}
+.dws-menu li > ul li a{
+ padding: 10px;
+ text-transform: none;
+ background: #ffe0f3;
+}
+.dws-menu li > ul li ul{
+ position: absolute;
+ right: -150px;
+ top: 0;
+}
+.dws-menu li:hover > ul{
+ display: block;
+}
+header, footer{
+	background: white;
+	padding:10px 0;
+}
+ul{
+	display: inline-block;
+}
+h1{
+	text-align: center;
+	color: #9e638c;
+	font-size: 60px
+}
+table{
+	text-align: center;
+}
+table {
+margin: 50px 120px 50px 120px;
+color: #9e638c;
+width: 80%;
+font-size: 20px;
+border-collapse: collapse;
+}
+table caption {
+font-size: 25px ;
+}
+table th{
+font-size: 19px;
+border-bottom: 2px solid black;
+padding: 10px 20px 10px 20px;
+font-weight: lighter;
+}
+table td{
+padding: 5px 30px 5px 30px;
+text-align: left;
+}
+.name{
+width: 450px;
+}
+
+.price{
+width: 100px;
+}
+form{
+width: 500px;
+}
+form ul {
+margin: 0;
+padding: 3px 3px 3px 3px;
+}
+form li{
+padding: 5px 5px 5px 5px;
+display: inline-block;
+}
+.section02{
+margin: 200px 200px 200px 200px;
+align-content: center;
+ background: rgb(89, 76, 88, 0.2); /* Цвет фона */
+ margin: 0 auto; /* Выравниваем слой по центру */
+    width: 60%; /* Ширина слоя */
+    padding: 10px; /* Поля вокруг текста */
+    -moz-border-radius: 5px; /* Для Firefox 3 */
+    -webkit-border-radius: 5px; /* Для Safari 4 и Chrome */
+    border-radius: 5px;
+}
+
+div{
+	width: 1200px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+aside, main{
+	width: 50%;
+	float: left;
+}
+aside img{
+	display: block;
+	width: 80%	
+}
+footer p{
+	color: black;
+	text-align: center;
+    font-size: 20px;
+}
+footer li{
+ display: inline-block;
+ padding: 10px;
+ float: right;
+ text-decoration: none;
+}
+
+
+
+
+
+
+
